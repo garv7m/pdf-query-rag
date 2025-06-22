@@ -46,13 +46,22 @@ cd pdf-rag-query-tool
 npm install
 ```
 ### 3. Add your Hugging Face API key
-```
-Create a .env file in the root:
 
+Create a .env file in the root:
+```
 HUGGINGFACE_API_KEY=your_huggingface_api_key_here
 ```
 
 ### 4. Add a PDF file
-```
+
 Place your PDF file (e.g., sample.pdf) in the root directory.
+
+---
+
+## ▶️ Usage
+
+Run the app using:
 ```
+npm start
+```
+It will prompt you to ask questions about the PDF. Type your query and hit enter. Type exit to quit.
