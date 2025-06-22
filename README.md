@@ -26,9 +26,33 @@ This is a Node.js-based command-line application that lets you ask questions fro
 
 ---
 
+## 🧪 Sample Models Used
+
+- Embeddings: sentence-transformers/all-MiniLM-L6-v2
+
+- LLM: mistralai/Mistral-7B-Instruct-v0.1
+
+---
+
 ## 📦 Installation
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/pdf-rag-query-tool.git
 cd pdf-rag-query-tool
+```
+### 2. Install dependencies
+```bash
+npm install
+```
+### 3. Add your Hugging Face API key
+```
+Create a .env file in the root:
+
+HUGGINGFACE_API_KEY=your_huggingface_api_key_here
+```
+
+### 4. Add a PDF file
+```
+Place your PDF file (e.g., sample.pdf) in the root directory.
+```
